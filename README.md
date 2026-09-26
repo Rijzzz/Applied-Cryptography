@@ -8,7 +8,6 @@ A simple Python project showing how to encrypt data with AES_GCM and ChaCha20_Po
 ### How It Works
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'primaryColor': 'transparent', 'primaryBorderColor': '#888', 'primaryTextColor': '#000', 'lineColor': '#888', 'background': 'transparent'}}}%%
 flowchart LR
     Plaintext --> Encrypt[AEAD Encrypt]
     Key[32B Key] --> Encrypt
